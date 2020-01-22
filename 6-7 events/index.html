@@ -58,8 +58,10 @@
     </ul>
 
     <!-- A form element without class or ID  -->
-    <form action="">
-      <input type="text"><br>
+    <!-- <form action=""> -->
+      <!-- <input type="text" id="name" value=""><br>
+      <input type="password"><br>
+
       <input type="email"><br>
       <input type="range" min="1" max="10" value="7"><br>
 
@@ -68,7 +70,51 @@
       <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
       <input type="radio" name="toc" value="read" id="read"> <label for="read">Read it all</label> <br>
       <input type="radio" name="toc" value="tldr" checked> <label for="tldr">TL;DR</label> <br>
-      <input type="submit" value="Submit">
-    </form>
+      <input type="submit" value="Submit"> -->
+      <!-- <form id="form" action="">
+          <input type="text" id="name" value=""><br>
+          <input type="password" value=""><br>
+          <input id="checkbox" type="checkbox" name="cb">
+          <label for="checkbox">I accept</label> <br>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+          <input type="submit" value="Submit">
+    </form> -->
+
+    <!-- <form id="form" action="">
+        <input id="name" type="text" placeholder="Enter your name">
+        <span id="name-feedback"></span><br>
+  
+        <input id="password" type="password" placeholder="Enter password">
+        <span id="password-feedback"></span><br>
+
+        <input id="amount" type="range" min="1" max="9" value="5"><br>
+  
+        <textarea id="message" name="message" cols="30" rows="10"></textarea>
+        <span id="message-feedback"></span><br>
+  
+        <input id="checkbox" type="checkbox" name="cb">
+          <label for="checkbox">I accept</label>
+        <span id="checkbox-feedback"></span><br>
+        
+        <input id="submit" type="submit" value="Submit">
+      </form> -->
+
+      <form id="form" action="">
+          <input id="name" type="text" value="">
+          <span id="name-feedback"></span><br>
+    
+          <input id="password" type="password" value="">
+          <span id="password-feedback"></span><br>
+    
+          <textarea id="message" name="message" cols="30" rows="10"></textarea>
+          <span id="message-feedback"></span><br>
+    
+          <input id="checkbox" type="checkbox" name="cb">
+            <label for="checkbox">I accept</label>
+          <span id="checkbox-feedback"></span><br>
+    
+          <input type="submit" value="Submit">
+      </form>
 </body>
 </html>
