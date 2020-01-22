@@ -62,10 +62,14 @@ $(function() {
 
   // jQuery(".lightbox").delay(500).fadeIn(1000);
 
+  // selectors
+
   // $("p").css("background-color", "rgba(180,180,0,0.8)");
   // $("#list").css("background-color", "rgba(180,180,0,0.8)");
   // $("li:last").css("background-color", "rgba(180,180,0,0.8)");
   // $("input:text").css("background-color", "rgba(180,180,0,0.8)");
+
+  // Traversal
   // $("#list").find("li").css("background-color", "rgba(180,180,0,0.8)");
   // $("#list").children("li").css("background-color", "rgba(180,180,0,0.8)");
   // $("#list").parents("div").css("background-color", "rgba(180,180,0,0.8)");
@@ -75,6 +79,8 @@ $(function() {
   // $("#list").siblings("p").css("background-color", "rgba(180,180,0,0.8)");
   // $("#list").siblings(":header").css("background-color", "rgba(180,180,0,0.8)");
     // $("#list").next().css("background-color", "rgba(180,180,0,0.8)");
+
+    // filter 
     // $("#list").find("li").filter(":odd").css("background-color", "rgba(180,180,0,0.8)");
     // $("#list").children("li").filter(":odd").css("background-color", "rgba(180,180,0,0.8)");
     
